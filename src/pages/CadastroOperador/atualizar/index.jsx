@@ -1,0 +1,17 @@
+import React from "react";
+import CadastroPut from "./CadastroPut";
+function Atualizador() {
+  return (
+    <div className="flex">
+      <div className="flex flex-col flex-grow">
+        <div className="flex flex-col mt-1 items-center w-full">
+          <div className="col-start-1 row-start-2">
+            <CadastroPut />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Atualizador;
