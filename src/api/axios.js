@@ -4,9 +4,9 @@ const instance1 = axios.create({
     
     // baseURL: 'http://63.142.255.87:3001/',
     baseURL: 'https://renato-lyra-sistema2-back.vercel.app/api/',
-    headers: {
-        'Content-type': 'application/json'
-    },
+    // headers: {
+    //     'Content-type': 'application/json'
+    // },
 });
 
 instance1.interceptors.request.use(
@@ -27,3 +27,4 @@ const instance2 = axios.create({
 });
 
 export { instance1, instance2 };
+
